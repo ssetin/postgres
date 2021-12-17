@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
+	"gorm.io/gorm/v2"
+	"gorm.io/gorm/v2/clause"
+	"gorm.io/gorm/v2/migrator"
+	"gorm.io/gorm/v2/schema"
 )
 
 type Migrator struct {

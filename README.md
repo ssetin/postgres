@@ -5,7 +5,7 @@
 ```go
 import (
   "gorm.io/driver/postgres"
-  "gorm.io/gorm"
+  "gorm.io/gorm/v2"
 )
 
 // https://github.com/jackc/pgx
@@ -18,7 +18,7 @@ db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 ```go
 import (
   "gorm.io/driver/postgres"
-  "gorm.io/gorm"
+  "gorm.io/gorm/v2"
 )
 
 db, err := gorm.Open(postgres.New(postgres.Config{
